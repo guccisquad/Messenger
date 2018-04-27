@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Messenger</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.0/socket.io.js"></script>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <div id="login">
+      <input type="text" id="username" placeholder="Type youre name...">
+      <button id="enter">Enter!</button>
+    </div>
+
+    <div id="messenger">
+      <div id="chat_window">
+        <div id="messages">
+
+        </div>
+        <div id="typing_message"></div>
+      </div>
+      <input type="text" id="message" placeholder="Type your message...">
+      <button id="send_message">Send!</button>
+    </div>
+
+    <script src = "/moment.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="/chat.js"></script>
+  </body>
+</html>
