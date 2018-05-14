@@ -1,0 +1,9 @@
+extends layout
+
+block content
+	#messenger
+		#chat_window
+			#messages
+			#typing_message
+		input.form-control#message(name='message', type='text', placeholder='Type youre message')
+		input.btn.btn-primary.col-md-12#send_message(type='submit', value='Submit')
